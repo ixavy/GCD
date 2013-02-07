@@ -10,4 +10,8 @@
 
 @interface IXViewController : UIViewController
 
+- (IBAction)download:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIImageView *photoView;
+
 @end
